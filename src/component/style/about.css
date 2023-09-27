@@ -1,0 +1,70 @@
+:root{
+    --white : white;
+    --themegreen : #31dbc7;
+    --gray : gray;
+    --black : black;
+}
+
+.t-color{
+    color: var(--white);
+}
+
+.about{
+    display: flex;
+    color: var(--white);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    /* justify-content: space-between; */
+}
+
+.about-sub1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 20px;
+    align-items: center;
+    border-right: 2px solid var(--white);
+}
+
+.about-sub2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    padding-left: 20px;
+    border-left: 2px solid var(--white);
+}
+
+.can-help, .about-me{
+    color: var(--themegreen);
+}
+
+#about-text{
+    font-size: 20px;
+}
+
+.about-text{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.about-btn{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    color: var(--themegreen);
+}
+
+.download-cv{
+    width: 100%;
+}
+
+.download-cv button {
+    border: none;
+    background-color: var(--themegreen);
+    color: white;
+    width: 100px;
+    height: 34px;
+    border-radius: 5px;
+}

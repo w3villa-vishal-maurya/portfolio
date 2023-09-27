@@ -1,0 +1,31 @@
+:root{
+    --white : white;
+    --themegreen :  #31dbc7;
+    --gray : gray;
+    --black : black;
+}
+
+
+  .mobile-nav {
+    background: var(--black);
+    position: fixed;
+    bottom: 0;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .bloc-icon img {
+    width: 50px;
+    padding: 10px;
+    border-radius: 30px ;
+    background-color: var(--themegreen);
+  }
+
+  @media screen and (min-width: 600px) {
+    .mobile-nav {
+    display: none;
+    }
+  }
