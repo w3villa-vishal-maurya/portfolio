@@ -9,15 +9,15 @@ function HeroSection() {
         <div className="hero">
           <div className="introduction">
             <div className="name">
-              <h1>&#128075; Hi, I'm <span>Vishal prakash <br /> Maurya</span>  a passionate <br /> Software Developer.</h1>
-              {/* <h1 className="white-color">&#128075; Hi I'm  <TypeAnimation
+              {/* <h1>&#128075; Hi, I'm <span>Vishal prakash <br /> Maurya</span>  a passionate <br /> Software Developer.</h1> */}
+              <h1 className="white-color">&#128075; Hi I'm  <TypeAnimation
                 sequence={[
                   // Same substring at the start will only be typed out once, initially
                   'Vishal Prakash Maurya',
                   1000, // wait 1s before replacing "Mice" with "Hamsters"
-                  'Vishal Prakash Maurya',
+                  'a passionate Software Developer.',
                   1000,
-                  'Vishal Prakash Maurya',
+                  'a professional Software Developer.',
                   1000,
 
                 ]}
@@ -25,7 +25,7 @@ function HeroSection() {
                 speed={50}
                 style={{ fontSize: '1em', display: 'inline-block' }}
                 repeat={Infinity}
-              /></h1> */}
+              /></h1>
             </div>
 
             <div className="text">
