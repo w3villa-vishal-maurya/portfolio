@@ -5,14 +5,14 @@
                 "id":1,
                 "collegeName":"Vishal Prakash Maurya",
                 "logo":"../image/download.jpg",
-                "specialization":"B.Tech (CSE)",
-                "from":"August 2019",
-                "to":"June 2023",
+                "specialization":" ",
+                "from":"Feb 2002",
+                "to":" ",
                 "extraActivity":"My name is Vishal Prakash Maurya, I’m 21 years old and I completed my graduation from Babu Banarasi Das National Institute of Technology and Management with a B.tech in Computer Science. While there, I learning a lot of practical in subjects like fundamentals of new technologies, machine learning, web development and more."
             },
             {
                 "id":2,
-                "collegeName":"BBD NITM",
+                "collegeName":"BBD NITM, Lucknow, UP",
                 "logo":"../image/bbdnitm.png",
                 "specialization":"B.Tech (CSE)",
                 "from":"August 2019",

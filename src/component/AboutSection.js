@@ -20,7 +20,7 @@ const AboutSection = () => {
 
                     <div className="about-btn">
                         <div className="experiance">
-                            <h2>2y+</h2>
+                            <h2>0.4y+</h2>
                             <p>Experiance</p>
                         </div>
                         <div className="project-count">

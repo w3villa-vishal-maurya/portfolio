@@ -18,6 +18,13 @@ const TestimonialData = (props) => {
                         <div className="profile-name">
                             <h4>{props.collegeName}</h4>
                         </div>
+                        <div className="profile-name">
+                            <h5>{props.specialization}</h5>
+
+                        </div>
+                        <div className="profile-name">
+                            <h6>{props.duration}</h6>
+                        </div>
                         <div className='profile-text'>
                             <p>{props.description}</p>
                         </div>

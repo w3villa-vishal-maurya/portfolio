@@ -40,9 +40,10 @@ function HeroSection() {
               <div className="my-skill">
                 <p>Best Skill on </p>
                 <div className='skill-icon'>
-                  <button><i className="fa-brands fa-square-js"></i></button>
-                  <button><i className="fa-brands fa-react"></i></button>
-                  <button><i className="fa-solid fa-database"></i></button>
+                  <a><i className="fa-brands fa-square-js"></i></a>
+                  <a><i className="fa-brands fa-react"></i></a>
+                  <a><i class="fa-brands fa-node-js"></i></a>
+                  <a><i className="fa-solid fa-database"></i></a>
                 </div>
               </div>
             </div>
