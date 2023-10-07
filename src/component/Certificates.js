@@ -1,5 +1,6 @@
 import React from 'react'
 import CertificateCard from './CertificateCard'
+import data from "../JsonData/Certificate.json"
 
 const Certificates = () => {
   return (
@@ -7,15 +8,13 @@ const Certificates = () => {
       <div className="container">
         <div className="certificate " id='certificates'>
           <h1 className='t-color'>Certificates</h1>
-          <hr className='hr'/>
+          <hr className='hr' />
         </div>
         <div className="cartificates-card">
-          <CertificateCard/>
-          <CertificateCard/>
-          <CertificateCard/>
-          <CertificateCard/>
-          <CertificateCard/>
-          <CertificateCard/>
+
+          {data['data'].slice(0, 6).map(item => (
+            <CertificateCard key={item.id} certificateImage={item.certificateImage} certificateName={item.certificateName} courseBy={item.courseBy} certificateDesc={item.description} certificateUrl={item.certificateUrl}/>
+          ))}
         </div>
       </div>
     </>

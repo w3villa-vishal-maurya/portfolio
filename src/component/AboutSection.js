@@ -11,7 +11,7 @@ const AboutSection = () => {
                         <h1>What Can I Help?</h1>
                         <a href="#"></a>
                     </div>
-                    
+
                     <div className="about-text" id='about-text'>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate earum exercitationem ratione quidem rerum adipisci reprehenderit fugiat eligendi, tempore totam dolore tenetur, nostrum,
                             optio voluptate reiciendis
@@ -34,14 +34,18 @@ const AboutSection = () => {
                         <h1>About Me</h1>
                     </div>
                     <div className="about-text">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate earum exercitationem ratione quidem rerum adipisci reprehenderit fugiat eligendi, tempore totam dolore tenetur, nostrum,
-                            optio voluptate reiciendis
-                            aliquam veritatis voluptatibus quos?</p>
+                        <p id="about-me">My name is Vishal Prakash Maurya, I’m 21 years old and I completed my graduation from Babu Banarasi Das National Institute of Technology and Management  with a B.tech in Computer Science. While there, I learning a lot of practical in subjects like fundamentals of new technologies, machine learning,  web development and more.
+
+                            I’ve worked hard in my education and now I’m ready to apply my knowledge into real-world problems.
+
+                            I’ve had a lot of exposure to the technical environment. A lot of my courses involved working with real companies to solve real problems.
+
+                            Now, I’m looking to leverage everything I’ve learned in college and get some hands-on work experience.</p>
 
                     </div>
 
                     <div className="download-cv">
-                    <button>Download CV</button >
+                        <button>Download CV</button >
                     </div>
                 </div>
             </div>

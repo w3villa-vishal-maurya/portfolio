@@ -1,0 +1,41 @@
+{
+    "data":
+        [  
+            {
+                "id":1,
+                "collegeName":"Vishal Prakash Maurya",
+                "logo":"../image/download.jpg",
+                "specialization":"B.Tech (CSE)",
+                "from":"August 2019",
+                "to":"June 2023",
+                "extraActivity":"My name is Vishal Prakash Maurya, I’m 21 years old and I completed my graduation from Babu Banarasi Das National Institute of Technology and Management with a B.tech in Computer Science. While there, I learning a lot of practical in subjects like fundamentals of new technologies, machine learning, web development and more."
+            },
+            {
+                "id":2,
+                "collegeName":"BBD NITM",
+                "logo":"../image/bbdnitm.png",
+                "specialization":"B.Tech (CSE)",
+                "from":"August 2019",
+                "to":"June 2023",
+                "extraActivity":"My name is Vishal Prakash Maurya, I’m 21 years old and I completed my graduation from Babu Banarasi Das National Institute of Technology and Management with a B.tech in Computer Science. While there, I learning a lot of practical in subjects like fundamentals of new technologies, machine learning, web development and more."
+            },    
+            {
+                "id":3,
+                "collegeName":"S B S S Inter College(UP Board)",
+                "logo":"../image/up2.png",
+                "specialization":"Intermediate in PCM",
+                "from":"April 2016",
+                "to":"April 2018",
+                "extraActivity":"My name is Vishal Prakash Maurya, I’m 21 years old and I completed my graduation from Babu Banarasi Das National Institute of Technology and Management with a B.tech in Computer Science. While there, I learning a lot of practical in subjects like fundamentals of new technologies, machine learning, web development and more."
+            },    
+            {
+                "id":4,
+                "collegeName":"S B S S Inter College(UP Board)",
+                "logo":"../image/up1.png",
+                "specialization":"HighSchool",
+                "from":"April 2016",
+                "to":"April 2018",
+                "extraActivity":"My name is Vishal Prakash Maurya, I’m 21 years old and I completed my graduation from Babu Banarasi Das National Institute of Technology and Management with a B.tech in Computer Science. While there, I learning a lot of practical in subjects like fundamentals of new technologies, machine learning, web development and more."
+            }
+        ]
+}  

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TestimonialData = () => {
+const TestimonialData = (props) => {
     return (
         <>
             <div className="box " id='education'>
@@ -12,22 +12,14 @@ const TestimonialData = () => {
 
                     <div className="box-data t-color ">
                         <div className="profile-pic">
-                            <img src="../image/download.jpg" alt="" />
+                            <img src={props.logo} alt="" />
 
                         </div>
                         <div className="profile-name">
-                            <h4>Vishal Prakash Maurya</h4>
+                            <h4>{props.collegeName}</h4>
                         </div>
                         <div className='profile-text'>
-                            <p>Lorem ipsum dolor sit,
-                                amet consectetur adipisicing elit.
-                                Corrupti sapiente dicta laboriosam
-                                rem itaque eum recusandae natus
-                                nulla harum quam aliquam commodi
-                                quisquam, maxime, aliquid id aperiam quia. Excepturi,
-                                blanditiis!</p>
-
-
+                            <p>{props.description}</p>
                         </div>
                     </div>
 

@@ -126,7 +126,7 @@ body{
     gap: 10px;
 }
 
-.find-me button{
+.find-me a{
     border: none;
     background-color: var(--black);
     color: var(--white);

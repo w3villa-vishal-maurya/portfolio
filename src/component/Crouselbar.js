@@ -3,6 +3,7 @@ import "./style/testimonial.css"
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import TestimonialData from './TestimonialData'
+import data from "../JsonData/Education.json"
 
 const Crouselbar = () => {
     const responsive = {
@@ -33,9 +34,11 @@ const Crouselbar = () => {
             ssr={true} // means to render carousel on server-side.
             infinite={true}>
             <TestimonialData />
-            <TestimonialData />
-            <TestimonialData />
+            {data['data'].slice(0, 4).map((item) => (
+                <TestimonialData key={item.id} logo={item.logo} collegeName={item.collegeName}  specialization={item.specialization} duration={`${item.from} - ${item.to}`} description={item.extraActivity} />
+            ))}
         </Carousel>
+
     )
 }
 

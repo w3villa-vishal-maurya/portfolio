@@ -1,27 +1,27 @@
 import React from 'react'
 import "./style/certificatesCard.css"
 
-const CertificateCard = () => {
+
+const CertificateCard = (props) => {
     return (
         <>
             <div className="card t-color">
                 <div className="card-img">
-                    <img src="../image/certificates.webp" alt="" />
+                    <img src={props.certificateImage} alt="" />
                 </div>
                 <div className="card-descr">
                     <div className="car-bar">
                         <div className="card-title">
-                            Coursera
+                            {props.courseBy}
                         </div>
                         <div className="card-date">
-                            07/23
+                            07/23   
                         </div>
                     </div>
                 </div>
 
                 <div className="card-text">
-                    <p className='article'>Lorem ipsum dolor sit amet consectetur 
-                        adipisicing elit. Iusto provident, temporibus error architecto amet, modi quia in  </p>
+                    <p className='article'>{props.certificateDesc}</p>
                 </div>
             </div>
         </>

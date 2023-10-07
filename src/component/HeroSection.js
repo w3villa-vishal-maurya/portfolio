@@ -15,11 +15,7 @@ function HeroSection() {
                   // Same substring at the start will only be typed out once, initially
                   'Vishal Prakash Maurya',
                   1000, // wait 1s before replacing "Mice" with "Hamsters"
-                  'a passionate Software Developer.',
-                  1000,
-                  'a professional Software Developer.',
-                  1000,
-
+                  
                 ]}
                 wrapper="span"
                 speed={50}
@@ -29,16 +25,16 @@ function HeroSection() {
             </div>
 
             <div className="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum laudantium obcaecati recusandae tenetur laborum similique possimus minima ea maxime alias in magnam unde asperiores nam natus dolores quae, dolorem quis!
+            My name is Vishal Prakash Maurya, I’m 21 years old and I completed my graduation from Babu Banarasi Das National Institute of Technology and Management  with a B.tech in Computer Science. While there, I learning a lot of practical in subjects like fundamentals of new technologies, machine learning,  web development and more.
             </div>
 
             <div className="skillset">
               <div className="find-me">
                 <p>Find Me At</p>
                 <div className='skill-icon'>
-                  <button><i className="fa-brands fa-github"></i></button>
-                  <button><i className="fa-brands fa-instagram"></i></button>
-                  <button><i className="fa-brands fa-facebook"></i></button>
+                  <a href='https://github.com/Vishalpm' target='_blank'><i className="fa-brands fa-github"></i></a>
+                  <a href='https://www.instagram.com/accounts/login/' target='_blank'><i className="fa-brands fa-instagram"></i></a>
+                  <a href='https://www.facebook.com/' target='_blank'><i className="fa-brands fa-facebook"></i></a>
                 </div>
               </div>
               <div className="my-skill">
