@@ -33,7 +33,7 @@ const Crouselbar = () => {
             autoPlay={false}
             ssr={true} // means to render carousel on server-side.
             infinite={true}>
-            <TestimonialData />
+            {/* <TestimonialData /> */}
             {data['data'].slice(0, 4).map((item) => (
                 <TestimonialData key={item.id} logo={item.logo} collegeName={item.collegeName}  specialization={item.specialization} duration={`${item.from} - ${item.to}`} description={item.extraActivity} />
             ))}

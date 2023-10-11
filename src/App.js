@@ -16,6 +16,7 @@ function App() {
       <HeroSection />
       <AboutSection />
       <Certificates/>
+  
       <Testimonial/>
       <MyProjects/>
       <Contact/>

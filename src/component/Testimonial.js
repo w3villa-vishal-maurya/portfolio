@@ -9,7 +9,14 @@ const Testimonial = () => {
 
   return (
     <>
+        <div className='box'>
+      <div className="testimonial t-color">
+                    <h2>Testimonial</h2>
+                    <hr className='t-color' />
+                </div>
+
       <Crouselbar/>
+      </div>
     </>
   )
 }
