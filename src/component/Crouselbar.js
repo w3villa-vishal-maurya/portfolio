@@ -30,7 +30,7 @@ const Crouselbar = () => {
             responsive={responsive}
             swipeable={true}
             draggable={true}
-            autoPlay={false}
+            autoPlay={true}
             ssr={true} // means to render carousel on server-side.
             infinite={true}>
             {/* <TestimonialData /> */}

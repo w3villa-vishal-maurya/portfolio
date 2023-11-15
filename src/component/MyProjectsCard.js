@@ -18,8 +18,6 @@ const MyProjectsCard = (props) => {
                 <div className="read-more">
                     <a href={props.projectLink} target='_blank'>Read more <hr /></a>
                 </div>
-
-
             </div>
         </>
     )

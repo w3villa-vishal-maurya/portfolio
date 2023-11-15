@@ -40,9 +40,13 @@
     background: linear-gradient(190deg, black, rgb(56, 56, 56));
 }
 
-/* .card-img{
+.card-img{
+    /* overflow: hidden; */
+}
 
-} */
+.card-img img:hover{
+    transform: scale(1.04);
+}
 
 .card-img img{
     width: 100%;

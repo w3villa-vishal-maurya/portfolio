@@ -1,8 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import "./style/nav.css"
 
 function HeroSection() {
+
+  const [isFlipped, setIsFlipped] = useState(false);
+
+  useEffect(() => {
+    const flipInterval = setInterval(() => {
+      setIsFlipped((prevIsFlipped) => !prevIsFlipped);
+    }, 1000); // Rotate every 1 second
+
+    return () => clearInterval(flipInterval);
+  }, []);
+  
   return (
     <>
       <div className="container">
@@ -15,7 +26,7 @@ function HeroSection() {
                   // Same substring at the start will only be typed out once, initially
                   'Vishal Prakash Maurya',
                   1000, // wait 1s before replacing "Mice" with "Hamsters"
-                  
+
                 ]}
                 wrapper="span"
                 speed={50}
@@ -25,7 +36,7 @@ function HeroSection() {
             </div>
 
             <div className="text">
-            My name is Vishal Prakash Maurya, I’m 21 years old and I completed my graduation from Babu Banarasi Das National Institute of Technology and Management  with a B.tech in Computer Science. While there, I learning a lot of practical in subjects like fundamentals of new technologies, machine learning,  web development and more.
+              My name is Vishal Prakash Maurya, I’m 21 years old and I completed my graduation from Babu Banarasi Das National Institute of Technology and Management  with a B.tech in Computer Science. While there, I learning a lot of practical in subjects like fundamentals of new technologies, machine learning,  web development and more.
             </div>
 
             <div className="skillset">
@@ -49,9 +60,16 @@ function HeroSection() {
             </div>
           </div>
 
-          <div className="media">
-            <div className="profile-img">
-              <img src="../image/download.jpg" alt="myImage" />
+          <div className="media ">
+            <div className={`flip-box ${isFlipped ? 'flipped' : ''}`}>
+              <div className="flip-box-inner">
+                <div className="flip-box-front profile-img">
+                  <img src="../image/download.jpg" alt="myImage" />
+                </div>
+                <div className=" profile-img">
+                  <img src="../image/profile.avif" alt="myImage" />
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@ import React from 'react'
 const TestimonialData = (props) => {
     return (
         <>
-            <div className=" " id='education'>
+            <div className=" ">
                 <div className="container testimonial-box">
                     <div className="box-data t-color ">
                         <div className="profile-pic">

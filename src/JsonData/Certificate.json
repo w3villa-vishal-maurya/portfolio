@@ -2,51 +2,51 @@
     "data":[
         {
             "id":1,
-            "certificateName":"Crash Course on Python",
-            "courseBy":"Coursera",
-            "certificateImage":"../image/certificates.webp",
+            "certificateName":"Data Structure in C++",
+            "courseBy":"Coding Ninjas",
+            "certificateImage":"../image/codingNinjaDSA.jpg",
             "description":"This course is designed to teach you the foundations in order to write simple programs in Python using the most common structures.",
-            "certificateUrl":"https://coursera.org/share/bd272a1bfd4bce455e8bd4c15e180582"
+            "certificateUrl":"certificate.codingninjas.com/verify/6a1edfc8aca3c0a1"
         },
         {
             "id":2,
-            "certificateName":"Front-End Web Development with React",
-            "courseBy":"Coursera",
-            "certificateImage":"../image/certificates.webp",
+            "certificateName":"Introduction to C++",
+            "courseBy":"Coding Ninjas",
+            "certificateImage":"../image/codingNinjaC++.jpg",
             "description":"This course explores Javascript based front-end application development, and in particular the React library (Currently Ver. 16.3). This course will use JavaScript ES6 for developing React application. You will also get an introduction to the use of Reactstrap for Bootstrap 4-based responsive UI design. You will be introduced to various aspects of React components. ",
-            "certificateUrl":"https://coursera.org/share/17776b860afacc208becf594307c11a4"
+            "certificateUrl":"certificate.codingninjas.com/verify/b26a78707329a27c"
         },
         {
             "id":3,
-            "certificateName":"Fundamentals Of Python",
-            "courseBy":"Udemy",
-            "certificateImage":"../image/certificates.webp",
+            "certificateName":"Advanced React",
+            "courseBy":"Coursera",
+            "certificateImage":"../image/AdvReactpng.png",
             "description":"This course explores the basics of python fundamentals. Navin Reddy is the teacher who teaches in this and I have learn all the fundaments which are needed to start python like variables, datatypes, functions, loops, conditional statements etc.",
-            "certificateUrl":"assets/images/python-udemy.jpeg"
+            "certificateUrl":"https://www.coursera.org/account/accomplishments/certificate/7G4EH7TUHQLP"
         },
         {
             "id":4,
-            "certificateName":"Crash Course on Python",
+            "certificateName":"Backend apps with nodejs",
             "courseBy":"Coursera",
-            "certificateImage":"../image/certificates.webp",
+            "certificateImage":"../image/courseraNodejs.png",
             "description":"This course is designed to teach you the foundations in order to write simple programs in Python using the most common structures.",
-            "certificateUrl":"https://coursera.org/share/bd272a1bfd4bce455e8bd4c15e180582"
+            "certificateUrl":"https://www.coursera.org/account/accomplishments/certificate/AHK4KNQJQK5A"
         },
         {
             "id":5,
-            "certificateName":"Front-End Web Development with React",
+            "certificateName":"Python for everybody",
             "courseBy":"Coursera",
-            "certificateImage":"../image/certificates.webp",
+            "certificateImage":"../image/courseraPython.png",
             "description":"This course explores Javascript based front-end application development, and in particular the React library (Currently Ver. 16.3). This course will use JavaScript ES6 for developing React application. You will also get an introduction to the use of Reactstrap for Bootstrap 4-based responsive UI design. You will be introduced to various aspects of React components. ",
-            "certificateUrl":"https://coursera.org/share/17776b860afacc208becf594307c11a4"
+            "certificateUrl":"https://www.coursera.org/account/accomplishments/certificate/62D56W7VZTXF"
         },
         {
             "id":6,
-            "certificateName":"Fundamentals Of Python",
+            "certificateName":"Basic fundamentals Of Machine Learning",
             "courseBy":"Udemy",
-            "certificateImage":"../image/certificates.webp",
+            "certificateImage":"../image/udemyML.png",
             "description":"This course explores the basics of python fundamentals. Navin Reddy is the teacher who teaches in this and I have learn all the fundaments which are needed to start python like variables, datatypes, functions, loops, conditional statements etc.",
-            "certificateUrl":"assets/images/python-udemy.jpeg"
+            "certificateUrl":"../image/udemyML.png"
         }
         
     ]
